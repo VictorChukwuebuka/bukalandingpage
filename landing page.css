@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    width: auto;
+    background-color: #C0C0C0;
+    margin: auto;
+}
+#header-img{
+    width: 400px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ ul{
+    list-style: none;
+ }
+ #header{
+     position: fixed;
+     display: flex;
+     background-color: silver;
+}
+
+#header ul li{
+    display: flex;
+    padding-left: 300px;
+    
+}
+#header ul li a{
+    padding: 10px 0px 0px 100px;
+}
+
+#video{
+    display: block;
+    padding: 100px 0px 100px 0px;
+    margin: auto;
+}
+#email{
+    width: 400px;
+    height: 30px;
+    display: block;
+    margin: auto;
+}
+#form #submit{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    display: block;
+    background-color:#008000;	
+}
+#features .premium{
+    padding: 50px 0px 50px 200px;    
+}
+
+#features .shipping{
+    padding: 50px 0px 50px 200px;    
+}
+
+#features .quality{
+    padding: 50px 0px 50px 200px;    
+}
+#pricing{
+    display: grid;
+    grid-gap: 100px;
+    text-align: center;
+    line-height: 40px;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows:repeat (3, 100px);
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+.TENOR{
+    border: 1px solid #111;
+}
+.BASS{
+    border: 1px solid #111;
+}
+.VALVE{
+    border: 1px solid #111;
+}
+#pricing h3{
+    background-color:darkgray;
+}
+#pricing #submit{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    display: block;
+    background-color:#008000;
+    border-radius: 10px;   
+    
+}
+footer ul{
+    padding: 10px 0px 10px 900px;
+}
+footer ul li a{
+    padding: 0px 10px 0px 40px;
+    
+}
+footer h6{
+    opacity: 0.4;
+    font-size: 15px;
+    padding-left:940px;
+}
+footer{
+    background-color: #A9A9A9;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+      font-size: 30px;
+    }
+    #header{
+        flex-direction: row;
+    }
+    #pricing{
+        flex-direction: row;
+    }
+
+  }
