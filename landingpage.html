@@ -7,9 +7,9 @@ margin: 0;
 padding: 0;
 }
 body{
-    width: 600px;
-    background-color: #C0C0C0;
-    margin: auto;
+    width: auto;
+    background-color: #a9a8bb;
+    
 }
 #header-img{
     width: 400px;
@@ -26,21 +26,21 @@ a{
      position: fixed;
      display: flex;
      background-color: silver;
+     width: 100%;
 }
 
 #header ul li{
-    display: flex;
     padding-left: 300px;
-    
+    display: flex;
 }
 #header ul li a{
-    padding: 10px 0px 0px 100px;
+    padding: 10px 0px 0px 50px;
 }
 
 #video{
     display: block;
-    padding: 100px 0px 100px 0px;
     margin: auto;
+    padding: 100px 0px 50px 0px;
 }
 #email{
     width: 400px;
@@ -56,15 +56,15 @@ a{
     background-color:#008000;	
 }
 #features .premium{
-    padding: 50px 0px 50px 200px;    
+    padding: 50px 0px 50px 300px;    
 }
 
 #features .shipping{
-    padding: 50px 0px 50px 200px;    
+    padding: 50px 0px 50px 300px;    
 }
 
 #features .quality{
-    padding: 50px 0px 50px 200px;    
+    padding: 50px 0px 50px 300px;    
 }
 #pricing{
     display: grid;
@@ -73,8 +73,8 @@ a{
     line-height: 40px;
     grid-template-columns: 200px 200px 200px;
     grid-template-rows:repeat (3, 100px);
-    padding-left: 200px;
-    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-bottom: 80px;
 }
 .TENOR{
     border: 1px solid #111;
@@ -98,7 +98,7 @@ a{
     
 }
 footer ul{
-    padding: 10px 0px 10px 900px;
+    padding: 10px 0px 10px 600px;
 }
 footer ul li a{
     padding: 0px 10px 0px 40px;
@@ -107,12 +107,16 @@ footer ul li a{
 footer h6{
     opacity: 0.4;
     font-size: 15px;
-    padding-left:940px;
+    padding-left:650px;
 }
 footer{
     background-color: #A9A9A9;
+    width: 80%;
+    display: block;
+    margin: auto;
+    
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     body {
       background-color: rgb(159, 175, 180);
       font-size: 20px;
