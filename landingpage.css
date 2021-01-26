@@ -18,10 +18,10 @@ a{
  ul{
     list-style: none;
  }
- #header{
+ .header{
      position: fixed;
      display: flex;
-     background-color: silver;
+     background-color: rgba(163, 154, 154, 0.349);
 }
 
 #header ul li{
