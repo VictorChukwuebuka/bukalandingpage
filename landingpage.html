@@ -29,6 +29,7 @@ a{
     list-style: none;
  }
  #header{
+     position: fixed;
     padding: 2%;
     display: flex;
       justify-content: space-between;
@@ -65,15 +66,15 @@ a{
     background-color:#008000;	
 }
 #features .premium{
-    padding: 5% 0% 5% 20%;    
+    padding: 2% 0% 2% 20%;    
 }
 
 #features .shipping{
-    padding: 5% 0% 5% 20%;    
+    padding: 2% 0% 2% 20%;    
 }
 
 #features .quality{
-    padding: 5% 0% 5% 20%;
+    padding: 2% 0% 10% 20%;
 }
 #pricing{
     display: grid;
@@ -81,7 +82,7 @@ a{
     text-align: center;
     line-height: 40px;
     grid-template-columns: 200px 200px 200px;
-    grid-template-rows:repeat (3, 100px);
+    grid-template-rows:repeat (3, 30px);
     padding-left: 20%;
     padding-bottom: 80px;
 }
@@ -136,8 +137,13 @@ footer{
     }
     #pricing {
         font-size: 10px;
-        column-width: 50%;
+        grid-template-columns: repeat(2, 1fr);
     }
+    .container{
+        column-width: 50%;
+
+    }
+
   }
     </style>
 
